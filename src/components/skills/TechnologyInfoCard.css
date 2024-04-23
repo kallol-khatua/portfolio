@@ -1,0 +1,19 @@
+.TechnologyInfoCard {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px 5rem;
+  text-align: center;
+}
+
+.TechnologyInfoCard img {
+  width: 5rem;
+  padding: 5px 0;
+}
+
+.TechnologyInfoCard p {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  font-family: Itim;
+  /* font-family: Salsa; */
+}

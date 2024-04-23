@@ -1,0 +1,14 @@
+.Home{
+    height: 500px;
+    background-color: #141C3A;
+    /* margin-top: 40px; */
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home h3 {
+    color: white;
+    font-size: 100px;
+}

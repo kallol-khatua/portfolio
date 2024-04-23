@@ -1,0 +1,14 @@
+.Contact{
+  height: 900px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px; */
+  width: 100vw;
+}
+
+.Contact h3 {
+  color: black;
+  font-size: 100px;
+}

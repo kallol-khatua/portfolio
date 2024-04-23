@@ -1,15 +1,24 @@
 import "./App.css";
-import Skill from "./components/skill/Skill";
+import Navbar from "./components/navbar/Navbar.jsx";
+import Home from "./components/home/Home.jsx";
+import Skill from "./components/skills/Skills.jsx";
+import Education from "./components/education/Education.jsx";
+import Projects from "./components/projects/Projects.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 function App() {
   return (
     <>
-      {/* home */}
-      {/* skills */}
+      <Navbar />
+      <Home />
+      <a name="skills"></a>
       <Skill />
-      {/* education */}
-      {/* projects */}
-      {/* contact */}
+      <a name="education"></a>
+      <Education />
+      <a name="projects"></a>
+      <Projects />
+      <a name="contact"></a>
+      <Contact />
     </>
   );
 }

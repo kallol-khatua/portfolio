@@ -1,0 +1,12 @@
+.Projects{
+    height: 1000px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Projects h3 {
+    color: black;
+    font-size: 100px;
+}

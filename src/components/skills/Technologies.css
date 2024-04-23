@@ -1,0 +1,29 @@
+.Technologies{
+    background-color: #141C3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.Technologies h2{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: Salsa;
+    /* font-family: Amaranth; */
+    /* font-family: Acme; */
+    /* font-family: Itim; */
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    padding: 30px 0;
+    /* min-width: auto; */
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
