@@ -1,0 +1,44 @@
+.ProjectInfoCard{
+    color: white;
+    background-color: #0f205f;
+    padding: 0;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.ProjectInfoCard img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body h3{
+    font-family: Salsa;
+    font-size: 32px;
+}
+
+.card-body h5{
+    font-family: Salsa;
+}
+
+.card-body h5 span{
+    font-family: Salsa;
+}
+
+p{
+    font-family: Itim;
+    font-size: 20px;
+    padding: 0 8px;
+}
+
+.action button a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color: #141C3A;
+    border-radius: 10px;
+    border: none;
+    margin-right: 22px;
+    padding: 3px 20px;
+    font-size: 23px;
+}

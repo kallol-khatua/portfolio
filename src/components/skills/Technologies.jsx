@@ -18,20 +18,18 @@ function Technologies() {
         <h2>These are the technologies I&apos;ve worked with</h2>
       </div>
       <div className="card-container">
-        {/* 
-  box-shadow: 0px 3px 5px white; */}
-        <TechnologyInfoCard
-          technology="CSS"
-          src={css}
-          alt="css.png"
-          shadowColor="#0277BD"
-          // shadowColor="blue"
-        />
+      {/* <div className="card-container row row-cols-lg-4 row-cols-md-3 row-cols-sm-2"> */}
         <TechnologyInfoCard
           technology="HTML"
           src={html}
           alt="html.png"
           shadowColor="#E44D26"
+        />
+        <TechnologyInfoCard
+          technology="CSS"
+          src={css}
+          alt="css.png"
+          shadowColor="#0277BD"
         />
         <TechnologyInfoCard
           technology="JavaScript"
@@ -46,6 +44,18 @@ function Technologies() {
           shadowColor="#7509F6"
         />
         <TechnologyInfoCard
+          technology="Mongo DB"
+          src={mongodb}
+          alt="mongodb.png"
+          shadowColor="#499D4A"
+        />
+        <TechnologyInfoCard
+          technology="Express JS"
+          src={express}
+          alt="express.png"
+          shadowColor="#828282"
+        />
+        <TechnologyInfoCard
           technology="React JS"
           src={react}
           alt="react.png"
@@ -56,18 +66,6 @@ function Technologies() {
           src={node}
           alt="node.png"
           shadowColor="#8CC84B"
-        />
-        <TechnologyInfoCard
-          technology="Express JS"
-          src={express}
-          alt="express.png"
-          shadowColor="#828282"
-        />
-        <TechnologyInfoCard
-          technology="Mongo DB"
-          src={mongodb}
-          alt="mongodb.png"
-          shadowColor="#499D4A"
         />
         <TechnologyInfoCard
           technology="Socket.IO"
