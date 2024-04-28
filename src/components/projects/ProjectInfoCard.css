@@ -1,44 +1,115 @@
-.ProjectInfoCard{
-    color: white;
-    background-color: #0f205f;
-    padding: 0;
-    border: none;
-    border-radius: 15px 15px 15px 15px;
+.ProjectInfoCard {
+  color: white;
+  background-color: #0f205f;
+  padding: 0;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
 }
 
-.ProjectInfoCard img{
-    width: 100%;
-    border-radius: 15px 15px 0 0;
+.yellow-glowing-shadow {
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 0, 0.5);
+  animation: glowing-shadow 1s linear infinite;
 }
 
-.card-body h3{
-    font-family: Salsa;
-    font-size: 32px;
+@keyframes glowing-shadow {
+  0% {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 0, 0.5);
+  }
+  10% {
+    box-shadow: 0px 0px 19px 0px rgba(255, 255, 0, 0.5);
+  }
+  20% {
+    box-shadow: 0px 0px 18px 0px rgba(255, 255, 0, 0.5);
+  }
+
+  30% {
+    box-shadow: 0px 0px 17px 0px rgba(255, 255, 0, 0.5);
+  }
+
+  40% {
+    box-shadow: 0px 0px 16px 0px rgba(255, 255, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 0, 0.5);
+  }
+
+  60% {
+    box-shadow: 0px 0px 16px 0px rgba(255, 255, 0, 0.5);
+  }
+  70% {
+    box-shadow: 0px 0px 17px 0px rgba(255, 255, 0, 0.5);
+  }
+  80% {
+    box-shadow: 0px 0px 18px 0px rgba(255, 255, 0, 0.5);
+  }
+  90% {
+    box-shadow: 0px 0px 19px 0px rgba(255, 255, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 0, 0.5);
+  }
 }
 
-.card-body h5{
-    font-family: Salsa;
+.ProjectInfoCard img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
 }
 
-.card-body h5 span{
-    font-family: Salsa;
+.card-body h3 {
+  font-family: Salsa;
+  font-size: 32px;
 }
 
-p{
-    font-family: Itim;
-    font-size: 20px;
-    padding: 0 8px;
+.card-body h5 {
+  font-family: Salsa;
 }
 
-.action button a{
-    color: white;
-    text-decoration: none;
+.card-body {
+  position: relative;
 }
-button{
-    background-color: #141C3A;
-    border-radius: 10px;
-    border: none;
-    margin-right: 22px;
-    padding: 3px 20px;
-    font-size: 23px;
+
+.card-body h5 .techStack {
+  font-family: Salsa;
+}
+
+p {
+  font-family: Itim;
+  font-size: 20px;
+  padding: 0 8px;
+}
+
+.action button a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: #141c3a;
+  border-radius: 10px;
+  font-family: Salsa;
+  border: none;
+  margin-right: 22px;
+  padding: 3px 20px;
+  font-size: 23px;
+}
+
+.card-body h5 .tech {
+  font-size: 22px;
+  font-family: Acme;
+}
+
+.ProjectInfoCard {
+  max-width: 25rem;
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1100px) {
+  .ProjectInfoCard {
+    max-width: 23rem;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .ProjectInfoCard {
+    max-width: 25rem;
+  }
 }

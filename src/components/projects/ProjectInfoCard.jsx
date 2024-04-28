@@ -12,24 +12,29 @@ function ProjectInfoCard({
   githubLink,
 }) {
   return (
-    <>
-      <div className="card ProjectInfoCard"  style={{width: "25rem"}}>
-        <img src={src} alt={title + ".png"} />
-        <div className="card-body">
-          <h3>{title}</h3>
-          <h5>Tech: {techStack.map((tech, idx) => <span key={idx}>{tech + ", "}</span>)}</h5>
-          <p>{desc}</p>
-          <div className="action">
-            <button>
-              <a href={siteLink}>Demo</a>
-            </button>
-            <button>
-              <a href={githubLink}>Code</a>
-            </button>
-          </div>
+    <div className="card ProjectInfoCard yellow-glowing-shadow">
+      <img src={src} alt={title + ".png"} />
+      <div className="card-body">
+        <h3>{title}</h3>
+        <h5>
+          <span className="tech">Tech:</span>{" "}
+          {techStack.map((tech, idx) => (
+            <span className="techStack" key={idx}>
+              {tech + ", "}
+            </span>
+          ))}
+        </h5>
+        <p>{desc}</p>
+        <div className="action">
+          <button className="yellow-glowing-shadow">
+            <a href={siteLink}>Demo</a>
+          </button>
+          <button className="yellow-glowing-shadow">
+            <a href={githubLink}>Code</a>
+          </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

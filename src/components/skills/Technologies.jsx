@@ -17,7 +17,7 @@ function Technologies() {
       <div>
         <h2>These are the technologies I&apos;ve worked with</h2>
       </div>
-      <div className="card-container">
+      <div className="tech-card-container">
       {/* <div className="card-container row row-cols-lg-4 row-cols-md-3 row-cols-sm-2"> */}
         <TechnologyInfoCard
           technology="HTML"
