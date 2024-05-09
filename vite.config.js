@@ -12,9 +12,9 @@ export default defineConfig({
       },
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'], // Additional static assets to include
       manifest: {
-        name: 'Portfolio',
-        short_name: 'Portfolio',
-        description: 'Portfolio',
+        name: 'Kallol Khatua Portfolio',
+        short_name: 'Kallol Khatua Portfolio',
+        description: 'Kallol Khatua Portfolio',
         theme_color: '#000000',
         background_color: '#ffffff',
         display: 'standalone', // 'standalone' for PWA-like behavior
@@ -22,12 +22,12 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: 'bootstrap.png', // Path to your app icon
+            src: 'icon-192x192.png', // Path to your app icon
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'bootstrap.png', // Larger icon for devices
+            src: 'icon-512x512.png', // Larger icon for devices
             sizes: '512x512',
             type: 'image/png',
           },
@@ -43,7 +43,7 @@ export default defineConfig({
               cacheName: 'api-cache', // Custom cache name
               expiration: {
                 maxEntries: 10000, // Maximum number of entries
-                maxAgeSeconds: 60 * 60, // Maximum age of cache (1 day)
+                maxAgeSeconds: 24 * 60 * 60, // Maximum age of cache (1 day)
               },
             },
           },

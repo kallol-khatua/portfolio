@@ -1,11 +1,16 @@
-import "./Contact.css"
+import "./Contact.css";
+import Email from "./Email";
+import Link from "./Link";
 
 function Contact() {
   return (
     <div className="Contact">
-      <h3>Contact Me</h3>
+      <h2>Contact Me</h2>
+      <Email/>
+      <Link/>
+      {/* <div className="links"></div> */}
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

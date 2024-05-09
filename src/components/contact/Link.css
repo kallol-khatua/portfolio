@@ -1,0 +1,59 @@
+.Link {
+  background-color: #6e07f3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-top: 100px; */
+  /* height: 100vh; */
+}
+.Link .links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 50px;
+}
+
+.Link .links a i {
+  font-size: 50px;
+  color: white;
+}
+
+.Link h2 {
+  padding-top: 75px;
+}
+
+.Link h3 {
+  width: 80%;
+  color: white;
+  word-spacing: 2px;
+  text-align: center;
+  font-family: Salsa;
+}
+
+#design {
+  padding-top: 20px;
+}
+
+i{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.love-icon a i {
+  font-size: 50px;
+  color: white;
+  padding: 15px;
+}
+
+@media (max-width: 350px) {
+  .Link h3 {
+    padding: 20px;
+  }
+}

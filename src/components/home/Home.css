@@ -1,14 +1,112 @@
-.Home{
-    height: 500px;
-    background-color: #141C3A;
-    /* margin-top: 40px; */
-    padding-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Home {
+  background-color: #141c3a;
+  padding-top: 70px;
+  /* padding-bottom: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Home h3 {
-    color: white;
-    font-size: 100px;
+  color: white;
+  margin-top: 10px;
+  font-family: Salsa;
+  font-size: 30px;
+}
+
+a button {
+  color: white;
+  font-family: "Itim";
+}
+
+.Home div {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home div a {
+  width: 80%;
+  margin: 0px 10px;
+  margin-right: 10px;
+}
+
+#hire,
+#resumeDownload {
+  width: min-content;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+  font-family: "Itim";
+}
+
+#hire,
+#resumeDownload {
+  padding: 8px 15px;
+  transition: all 1s;
+  border-radius: 30px;
+  border: 2px solid #52d0a9;
+}
+
+#hire:hover,
+#resumeDownload:hover {
+  background: #52d0a9;
+  color: #141c3a;
+}
+
+#background {
+  max-width: 45%;
+}
+
+@media (max-width: 750px) {
+  #background {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1450px) {
+  #background {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+  .Home div {
+    width: 55%;
+  }
+  .Home div a {
+    width: 90%;
+    margin: 0px 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+  .Home div {
+    width: 70%;
+  }
+  .Home div a {
+    width: 90%;
+    margin: 0px 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Home div {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .Home div a {
+    width: 100%;
+  }
 }

@@ -1,5 +1,9 @@
 import "./Projects.css";
 import ProjectInfoCard from "./ProjectInfoCard";
+import todopilot from "../../assets/todopilot.png"
+import briefinsight from "../../assets/briefinsight.png"
+import invito from "../../assets/invito.png"
+import debatebox from "../../assets/debatebox.png"
 
 function Projects() {
   return (
@@ -11,7 +15,7 @@ function Projects() {
       <div className="card-container">
         <ProjectInfoCard
           title="Todo Pilot"
-          src="https://codewithbiki.netlify.app/static/media/shopeasy.7d9a081d08b506c1505a.png"
+          src={todopilot}
           techStack={[
             "React JS",
             "Material UI",
@@ -24,11 +28,11 @@ function Projects() {
           ]}
           desc="Todo Pilot is a task management application designed to help you organize and store your tasks in a structured manner. By leveraging local storage, this app ensures that your task list is always at your fingertips, offering a reliable and efficient way to manage your to-dos without the need for databases."
           siteLink="https://todopilot.netlify.app/"
-          githubLink="https://github.com/kallol-khatua/todo-with-local-storage"
+          githubLink="https://github.com/kallol-khatua/todo-pilot"
         />
         <ProjectInfoCard
           title="Brief Insight"
-          src="https://codewithbiki.netlify.app/static/media/shopeasy.7d9a081d08b506c1505a.png"
+          src={briefinsight}
           techStack={[
             "React JS",
             "Material UI",
@@ -41,11 +45,11 @@ function Projects() {
           ]}
           desc="Brief Insight is an API-based application designed to provide accurate and user-friendly real-time weather information. This app delivers on-demand updates with a sleek and intuitive design, keeping you informed about the latest weather conditions in a seamless and enjoyable way."
           siteLink="https://briefinsight.netlify.app/"
-          githubLink="https://github.com/kallol-khatua/weather-info"
+          githubLink="https://github.com/kallol-khatua/brief-insight"
         />
         <ProjectInfoCard
           title="Invito"
-          src="https://codewithbiki.netlify.app/static/media/shopeasy.7d9a081d08b506c1505a.png"
+          src={invito}
           techStack={[
             "Node JS",
             "Express JS",
@@ -64,7 +68,7 @@ function Projects() {
         />
         <ProjectInfoCard
           title="DebateBox"
-          src="https://codewithbiki.netlify.app/static/media/shopeasy.7d9a081d08b506c1505a.png"
+          src={debatebox}
           techStack={[
             "Node JS",
             "Express JS",

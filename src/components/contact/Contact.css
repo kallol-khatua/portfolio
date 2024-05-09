@@ -1,14 +1,35 @@
-.Contact{
-  height: 900px;
-  background-color: antiquewhite;
-  display: flex;
+/* .Contact{
+  background-color: #141c3a; */
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  /* padding-top: 20px; */
   width: 100vw;
+  padding-top: 15px;
+  padding-bottom: 70px; */
+/* } */
+
+/* .Contact h2{
+  color: white;
+} */
+
+.Contact{
+  background-color: #141c3a;
+  padding: 15px 0px;
+  padding-bottom: 0px;
+  margin-top: -2px;
 }
 
-.Contact h3 {
-  color: black;
-  font-size: 100px;
+.Contact h2{
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-family: Salsa;
+  word-spacing: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  /* margin: 0 0 15px 0; */
+  padding: 10px;
+  
+  padding-top: 50px;
+  min-width: auto;
 }
